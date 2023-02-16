@@ -41,7 +41,9 @@
     width: 100%;
     height: auto;
   }
-
+.banner-button{
+  text-align: center;
+}
 
   
   /* second section.. */
@@ -68,4 +70,41 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
+}
+.experience-text{
+  font-size: 50px;
+  
+}
+
+
+.button-1{
+  position: relative;
+  top: -100px;
+}
+
+
+
+/* four section */
+.icon-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.icon{
+  padding: 10px;
+  text-align: center;
+  border: 3px solid rgb(236, 134, 16);
+  border-radius: 5px;
+}
+
+/* five section */
+
+.section-five-image{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+}
+
+.section-five-text{
+  text-align: center;
 }
