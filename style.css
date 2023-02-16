@@ -5,4 +5,52 @@
 
   body{
     font-family: 'Poppins', sans-serif;
+    margin-left: 30px;
+     margin-right: 30px;    
   }
+
+  /* common button style  */
+
+  .btn{
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #FF900E;
+
+  }
+  .button-1, .banner-text{
+    text-align: center;
+  }
+
+  /* first secion.. */
+
+  .banner-div{
+    margin-bottom: 5%;
+  }
+ /* common image syle */
+  .first-section img{
+    width: 100%;
+    height: auto;
+  }
+
+
+  
+  /* second secion.. */
+
+   .team-mate{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   gap: 10px;
+
+  }
+
+
+  .second-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+ align-items: center;
+ gap: 60px;
+
+}
