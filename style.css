@@ -5,8 +5,8 @@
 
   body{
     font-family: 'Poppins', sans-serif;
-    margin-left: 30px;
-     margin-right: 30px;    
+    margin-left: 100px;
+     margin-right: 100px;    
   }
 
   /* common button style  */
@@ -23,8 +23,15 @@
   .button-1, .banner-text{
     text-align: center;
   }
+  section{
+    margin-bottom: 50px;
+  }
+ .border-edit{
+  border-left: 5px solid orange;
+  padding-left: 10px;
+ }
 
-  /* first secion.. */
+  /* first section.. */
 
   .banner-div{
     margin-bottom: 5%;
@@ -37,7 +44,7 @@
 
 
   
-  /* second secion.. */
+  /* second section.. */
 
    .team-mate{
     display: grid;
@@ -52,5 +59,13 @@
     grid-template-columns: repeat(2, 1fr);
  align-items: center;
  gap: 60px;
+
+}
+
+ /* third section.. */
+
+ .third-section{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 
 }
